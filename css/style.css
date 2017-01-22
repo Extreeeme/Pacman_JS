@@ -1,0 +1,41 @@
+#container{
+	display: flex;
+	justify-content: center;
+}
+#noir{
+	background-color: black;
+	border : 0.2px solid black;
+	width: 20px;
+	height: 20px;
+}
+
+#jaune{
+	background-color: yellow;
+	border : 0.2px solid #D8D700;
+	width: 20px;
+	height: 20px;
+}
+
+#blanc{
+	background-color: white;
+	border : 0.2px solid #F3F3F3;
+	width: 20px;
+	height: 20px;
+}
+
+#pacman{
+	display: flex;
+	flex-wrap: wrap;
+	width: 310px;
+}
+
+button{
+	background-color: #008B91;
+	color: white;
+	border : 1px solid white;
+	border-radius: 30px;
+	font-size: 2em;
+	position: absolute;
+	padding: 20px;
+	margin: 50px;
+}
